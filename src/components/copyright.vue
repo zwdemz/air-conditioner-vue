@@ -11,20 +11,6 @@
 import * as pkg from "../../package.json";
 </script>
 
-<template>
-  <div class="copyright-box">
-    <div class="copyright-p-1">
-      ©
-      <a :href="pkg.repository.url" target="_blank" rel="noreferrer">AnZhiYu Air Conditioner</a>
-      <a class="copyright-p-1-1" href="https://sponsors.yunyoujun.cn" target="_blank" rel="noreferrer">
-        <div class="copyright-p-1-1-icon" />
-      </a>
-      <a :href="pkg.author.url" target="_blank" rel="noreferrer">安知鱼 @{{ pkg.author.name }}</a>
-    </div>
-    <p>2022 - {{ new Date().getFullYear() }}</p>
-  </div>
-</template>
-
 <style lang="scss" scoped>
 .copyright-box {
   opacity: 0.8;
